@@ -24,10 +24,11 @@
     3. Looping Constructs -For Loop
         1. Simple for loop
         2. range operators
-5. Arrays and Slices
+5. Arrays, Slices and maps
     1. Delcaration and initialization of Arrays
     2. Declaration and initialization of slice
     3. difference between array and slice
+    3. Working with Maps
 6. Structures
     1. Defining structures
     2. Nested strucutures
@@ -68,7 +69,7 @@
     2. Importing external modules
     3. Creating modules
     4. Importing own module in other projects
-2. Interfaces
+2. Interfaces and reflection
     1. Defining interfaces
     2. Embedded interfaces
     3. Prompted methods
@@ -81,6 +82,36 @@
     1. JSON Encoding
     2. XML Encoding
     3. CSV Encoding
+
+### Module-4 Concurrency in Go "Share by communicating"
+1. Go-Routines and concurrency primitives
+    1. Invoking go routine
+    2. Wait groups
+    3. Mutex and Locks
+2. Chanels in Go
+    1. Unbuffered channels
+    2. Buffered channels
+    3. Working with channels
+    4. Select
+3. Concurrency patterns
+    1. Pipeline
+    2. FanOut
+    3. FanIn
+    4. Worker Groups
+
+### Module-5 Network programing in GO
+1. Working with Sockets
+2. UDP Server and client
+3. TCP server and client
+4. Http Server and client
+    1. Handlers
+    2. Routers and Mux (Gorilla Mux)
+    3. Rest APIs
+5. GRPC
+    1. What is GRPC
+    2. Working with GRPC
+    3. Difference between RPC and GRPC
+
 
     
 
