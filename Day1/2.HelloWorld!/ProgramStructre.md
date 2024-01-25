@@ -11,13 +11,41 @@ Every go source code file has to be saved with .go extension, every go source fi
  3. Package name can't use special charecters other than "_" (underscore)
  4. Package name can contain intergers
 
- package main, is the executable package, it has a function by name as main, which is the starting point of execution.
- It can be defined as 
+ Example:
+    package math
+
+    package fmt
+
+    package maths1
+
+    package math_1
+
+    etc.
+
+ Every go executable, has to have a main package. main package is known as executable package, func main is the stating point of the execution.  
+
+
+ It is defined as 
     
     func main() {
 
     }
 
 func is a keyword to define functions.
-This article is inspired by my better half, Sanjana Dodawadkar.
 
+    package main 
+    import "fmt"
+
+    func main() {
+        fmt.Println("Welcome to Go training")
+    }
+
+import is a keyword to import the external packages
+
+import "fmt" imports the standard package fmt and its functionalities.
+
+func main  defines the function main.
+opening "{" and closing "}" defines the main function boundries
+fmt.Println("Welcome to Go training") lines calls the function Println from fmt package, this outputs "Welcome to Go training" to console.
+
+Next Topic: Keywords
