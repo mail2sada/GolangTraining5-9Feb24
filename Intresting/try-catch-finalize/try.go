@@ -10,20 +10,20 @@ type Block struct {
 	Finally func()
 }
 
-func (b Block) Do() {
-	if b.Finally != nil {
-		defer b.Finally()
+func (tcf Block) Do() {
+	if tcf.Finally != nil {
+		defer tcf.Finally()
 	}
-	if b.Catch != nil {
+	if tcf.Catch != nil {
 		defer func() {
 			r := recover()
 			if r != nil {
-				b.Catch(r)
+				tcf.Catch(r)
 			}
 		}()
 	}
-	if b.Try != nil {
-		b.Try()
+	if tcf.Try != nil {
+		tcf.Try()
 	}
 }
 
