@@ -22,6 +22,5 @@ func main() {
 		fmt.Println("It's a Saturday")
 	default:
 		fmt.Println("Invalid weekday number")
-
 	}
 }
