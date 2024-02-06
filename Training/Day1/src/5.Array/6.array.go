@@ -9,8 +9,6 @@ func main() {
 
 	b := a[4:6]
 
-	c := a[7:5]
-
 	fmt.Println(b)
 
 }
