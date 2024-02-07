@@ -16,4 +16,5 @@ func main() {
 	slice = append(slice[:idx], slice[idx+1:]...)
 
 	fmt.Println(slice)
+	
 }

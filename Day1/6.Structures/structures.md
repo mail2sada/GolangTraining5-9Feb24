@@ -146,7 +146,10 @@ Structs can be compared using the == and != operators. Two structs are equal if 
                 } else {
                     fmt.Println("Not Equal")
                 }
+
+                
 ## Final Notes
 Structs in Go provide a way to define and organize complex data structures. They are used to create custom types with multiple fields, encapsulating related information. Understanding how to declare, initialize, and use structs, as well as defining methods on structs, is fundamental to effective Go programming.
+
 
  

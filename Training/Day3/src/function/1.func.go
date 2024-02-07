@@ -7,6 +7,12 @@ func TestCode(a int) {
 	fmt.Println(a)
 }
 
+//  0x0001 -> v 1000
+//
+// 0x0008 -> a 1000/ 100
+//
+//
+
 func main() {
 	fmt.Println("Demi: Call by value")
 

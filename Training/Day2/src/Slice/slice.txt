@@ -11,3 +11,5 @@ var firstSlice []int = []int {1,2,3,4,5,6,7,8,9,10}
 
 // extending Slice
     firstSlice = append(firstSlice, 11)
+
+// firstSlice[0]

@@ -12,4 +12,5 @@ func main() {
 	for idx, val := range Str {
 		fmt.Printf("%d:%c\n", idx, val)
 	}
+	
 }

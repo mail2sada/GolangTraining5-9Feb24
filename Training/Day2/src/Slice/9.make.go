@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Slice : make")
 
-	slice := make([]int, 0, 10)
+	slice := make([]int, 10, 100)
 
 	fmt.Println(slice)
 

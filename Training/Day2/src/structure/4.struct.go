@@ -7,6 +7,11 @@ type PromptedStruct struct {
 	string
 	float64
 	uint
+	uint16
+	uint32
+
+	int16
+	int32
 	a, b int
 }
 

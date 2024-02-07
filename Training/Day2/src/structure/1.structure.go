@@ -24,4 +24,6 @@ func main() {
 	testInstance.Array[3] = 10000
 	testInstance.Array[4] = 10000
 	fmt.Println(testInstance)
+
+	fmt.Println(testInstance.Integer)
 }
