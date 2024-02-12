@@ -32,7 +32,6 @@ func main() {
 func TestProfiling(n int) bool {
 	defer func(t time.Time) {
 		fmt.Println("It took", time.Since(t))
-
 	}(time.Now())
 	isNumberDivisible := true
 

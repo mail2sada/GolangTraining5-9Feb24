@@ -14,15 +14,13 @@ var mutex = sync.Mutex{}
 
 func IncrementCounter() {
 	defer wg.Done()
+	mutex.Lock()
 
 	for i := 0; i < 1000; i++ {
-		mutex.Lock()
-
 		counter++
 		time.Sleep(1 * time.Nanosecond)
-		mutex.Unlock()
-
 	}
+	mutex.Unlock()
 
 }
 

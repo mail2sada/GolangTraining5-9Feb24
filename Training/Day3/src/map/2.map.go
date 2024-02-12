@@ -14,7 +14,6 @@ func main() {
 	m["C"] = 10000
 
 	fmt.Println(m)
-	fmt.Println(m)
 
 	delete(m, "A")
 	fmt.Println(m)
